@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the sections */
+section {
+    padding: 5px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    padding: 10;
+}
+
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the navigation links */
+ul.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.links li {
+    display: inline;
+}
+
+ul.links li a {
+    display: inline-flex;
+    
+    color: #15ac5c;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+ul.links li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.hhh{ 
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.jobs{
+    position: absolute;
+    justify-content: center;
+    background-color: darkslategray;
+   color: white;
+    margin-left: 300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .social-links li {
+    margin-left: 20px;
+    list-style: none;
+  }
+  
+  .social-links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .social-links a:hover {
+    color: whitesmoke
+  }
+  
+  .social-links i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+
+
+
+
+
+
